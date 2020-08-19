@@ -1,0 +1,32 @@
+body {
+	background: url(https://live.staticflickr.com/7539/16112290310_c51a6a4f9f_b.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family:'Metamorphous', cursive;
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(255, 0, 0, 0.4),
+							 0px 8px 13px rgba(0, 0, 0, 0.3),
+							 0px 18px 23px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+    max-width: 90%;
+}
